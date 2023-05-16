@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 22rem;
   padding: 2rem;
 }
 .container {
@@ -91,12 +91,20 @@ button:hover {
     font-size: 2rem;
   }
   .question-count,
-  .question-timer,
-  .option-box {
+  .question-timer {
     font-size: 1.4rem;
   }
+  .option-box {
+    font-size: 1.2rem;
+  }
+  .question-text {
+    height: 9rem;
+  }
+  .root-container {
+    width: 38rem;
+  }
   .option-box input {
-    margin-top: 0.7rem;
+    margin-top: 0.6rem;
   }
   .btn {
     font-size: 1rem;
@@ -114,18 +122,25 @@ button:hover {
     font-size: 2.5rem;
   }
   .question-count,
-  .question-timer,
-  .option-box {
+  .question-timer {
     font-size: 2.4rem;
   }
-
+  .option-box {
+    font-size: 1.6rem;
+  }
+  .question-text {
+    height: 13rem;
+  }
+  .root-container {
+    width: 46rem;
+  }
   .btn {
     font-size: 1rem;
   }
   input[type="radio"] {
     width: 22px;
     height: 22px;
-    margin-top: 1rem;
+    margin-top: 8px;
   }
   .center-text button {
     font-size: 2rem;

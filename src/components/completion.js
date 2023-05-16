@@ -11,7 +11,9 @@ const Completion = () => {
       <div className="completion">
         Time Taken: {context.timeTaken}s
         <div> Karma Points: {context.correctAnswers}</div>
-        <button onClick={() => handlePlayAgain()}>Play Again</button>
+        <button className="btn" onClick={() => handlePlayAgain()}>
+          Play Again
+        </button>
       </div>
     </div>
   );
