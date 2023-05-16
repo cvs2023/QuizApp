@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following functions is used to find the highest value in a range of cells?",
+    "options": [
+      { "optionNumber": 1, "optionText": "MAX" },
+      { "optionNumber": 2, "optionText": "MIN" },
+      { "optionNumber": 3, "optionText": "SUM" },
+      { "optionNumber": 4, "optionText": "AVERAGE" }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "question": "What keyboard shortcut is used to insert the current date in a cell?",
+    "options": [
+      { "optionNumber": 1, "optionText": "Ctrl + D" },
+      { "optionNumber": 2, "optionText": "Ctrl + Shift + D" },
+      { "optionNumber": 3, "optionText": "Ctrl + ;" },
+      { "optionNumber": 4, "optionText": "Ctrl + Shift + ;" }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 3,
+    "question": "Which chart type is suitable for comparing values across different categories in Excel?",
+    "options": [
+      { "optionNumber": 1, "optionText": "Line chart" },
+      { "optionNumber": 2, "optionText": "Bar chart" },
+      { "optionNumber": 3, "optionText": "Pie chart" },
+      { "optionNumber": 4, "optionText": "Scatter chart" }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is used to filter and display specific data in a worksheet based on given criteria?",
+    "options": [
+      { "optionNumber": 1, "optionText": "Sort" },
+      { "optionNumber": 2, "optionText": "Freeze Panes" },
+      { "optionNumber": 3, "optionText": "AutoSum" },
+      { "optionNumber": 4, "optionText": "Filter" }
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": 5,
+    "question": "What does the COUNTIF function do in Excel?",
+    "options": [
+      {
+        "optionNumber": 1,
+        "optionText": "Calculates the average of a range of cells"
+      },
+      {
+        "optionNumber": 2,
+        "optionText": "Counts the number of empty cells in a range"
+      },
+      {
+        "optionNumber": 3,
+        "optionText": "Counts the number of cells meeting a specified condition"
+      },
+      {
+        "optionNumber": 4,
+        "optionText": "Calculates the sum of a range of cells"
+      }
+    ],
+    "correctAnswer": 3
+  }
+]

@@ -1,0 +1,131 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+.root-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 2rem;
+}
+.container {
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+
+.start-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.question-box {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.top-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+.question-count {
+  padding: 0.4rem;
+  font-size: 0.6rem;
+  border-radius: 0.4rem;
+  background-color: rgb(136, 240, 136);
+}
+.question-timer {
+  padding: 0.4rem;
+  font-size: 0.6rem;
+  border-radius: 0.4rem;
+  background-color: rgb(136, 240, 136);
+}
+.question-text {
+  display: flex;
+  flex-wrap: wrap;
+  height: 4rem;
+  margin-bottom: 3rem;
+}
+.option-box {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  height: 3rem;
+}
+button {
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+  border: none;
+  color: white;
+  border-radius: 0.1rem;
+  background-color: rgb(33, 137, 57);
+  padding: 0.3rem;
+}
+.completion {
+  border-radius: 1rem;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.completion button {
+  margin-top: 2rem;
+  border: none;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    font-size: 2rem;
+  }
+  .question-count,
+  .question-timer,
+  .option-box {
+    font-size: 1.4rem;
+  }
+  .option-box input {
+    margin-top: 0.7rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  .center-text button {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    font-size: 2.5rem;
+  }
+  .question-count,
+  .question-timer,
+  .option-box {
+    font-size: 2.4rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+  input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    margin-top: 1rem;
+  }
+  .center-text button {
+    font-size: 2rem;
+  }
+  .btn {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+}
+/* //? Lower than 360 */
