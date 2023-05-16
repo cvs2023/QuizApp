@@ -58,12 +58,19 @@
 }
 button {
   margin-top: 0.5rem;
-  padding: 0.2rem;
+  padding: 0.4rem;
   border: none;
   color: white;
   border-radius: 0.1rem;
   background-color: rgb(33, 137, 57);
   padding: 0.3rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(20, 44, 113);
+}
+.option-box:hover {
+  cursor: pointer;
 }
 .completion {
   border-radius: 1rem;
